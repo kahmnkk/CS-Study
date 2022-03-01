@@ -1,4 +1,5 @@
 /**
+ * Depth-First Search
  * 깊이 우선 탐색
  * 경로 존재 판별 등에 사용
  * @param {Array<Array<Number>>} graph i번 노드와 j번 노드가 연결되어 있으면 graph[i][j]를 1로 표현

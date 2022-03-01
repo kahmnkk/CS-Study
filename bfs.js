@@ -1,4 +1,5 @@
 /**
+ * Breadth-First Search
  * 너비 우선 탐색
  * 최단거리 탐색, 친구 추천 기능 등에 사용
  * @param {Array<Array<Number>>} graph i번 노드와 j번 노드가 연결되어 있으면 graph[i][j]를 1로 표현
