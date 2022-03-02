@@ -1,18 +1,24 @@
 # Algorithm Study
 
-알고리즘을 정리하고 [프로그래머스](https://programmers.co.kr) 연습문제를 풀어봅니다.
+알고리즘과 [프로그래머스](https://programmers.co.kr) 연습문제 풀이 정리
 
 <br></br>
 
 ## 목차
 
--   [Depth-First Search, 깊이 우선 탐색](#depth-first-search-깊이-우선-탐색)
--   [Breadth-First Search, 너비 우선 탐색](#breadth-first-search-너비-우선-탐색)
+-   [Graph, 그래프](#graph-그래프)
+    -   [Depth-First Search, 깊이 우선 탐색](##depth-first-search-깊이-우선-탐색)
+    -   [Breadth-First Search, 너비 우선 탐색](##breadth-first-search-너비-우선-탐색)
+    -   [Dijkstra, 다익스트라](##Dijkstra-다익스트라)
 -   [Dynamic Programming, 동적계획법](#dynamic-programming-동적계획법)
 
 <br></br>
 
-# Depth-First Search, 깊이 우선 탐색
+# Graph, 그래프
+
+<br></br>
+
+## Depth-First Search, 깊이 우선 탐색
 
 -   임의의 노드에서 시작하여 다른 루트로 가기 전에 해당 루트를 모두 탐색
 -   경로 존재 판별 등에 사용
@@ -21,15 +27,24 @@
 
 <br></br>
 
-# Breadth-First Search, 너비 우선 탐색
+## Breadth-First Search, 너비 우선 탐색
 
 -   임의의 노드에서 시작하여 인접한 노드를 먼저 탐색
--   두 노드 사이의 최단 경로 또는 임의의 경로를 찾고 싶을 때 사용
+-   두 노드 사이의 최단 경로를 찾고 싶을 때 사용 - 그래프 가중치가 없을 경우
 -   노드 방문 여부 검증 필요
 -   그래프, 큐(Queue) 사용 - 선입선출(FIFO) 방식
 
 ![dfs_bfs](https://www.hackerearth.com/blog/wp-content/uploads/2015/05/dfsbfs_animation_final.gif)  
 (출처) https://www.hackerearth.com/blog/
+
+<br></br>
+
+## Dijkstra, 다익스트라
+
+-   그래프 가중치가 있을 경우 두 노드 사이의 최단 경로를 찾고 싶을 때 사용
+-   출발 노드에서 다른 노드로 가는 최단 경로를 모두 구함
+-   음의 간선이 있을 경우 사용 불가
+-   그리디 알고리즘 + 동적계획법
 
 <br></br>
 
