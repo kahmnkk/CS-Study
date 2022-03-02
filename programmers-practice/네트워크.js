@@ -5,7 +5,7 @@
 function solution(n, computers) {
     let answer = 0;
 
-    let visited = [];
+    let visited = {};
     for (let i in computers) {
         let isNew = dfs(computers, Number(i), visited);
         if (isNew == true) {
@@ -17,11 +17,11 @@ function solution(n, computers) {
 }
 
 function dfs(graph, startNode, visited) {
-    if (visited.includes(startNode) == true) {
+    if (visited[startNode] != null) {
         return false;
     }
 
-    visited.push(startNode);
+    visited[startNode] = startNode;
 
     for (let i in graph[startNode]) {
         if (Number(i) == startNode) {
