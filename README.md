@@ -6,9 +6,9 @@
 
 ## 목차
 
--   Depth-First Search, 깊이 우선 탐색
--   Breadth-First Search, 너비 우선 탐색
--   Dynamic Programming, 동적계획법
+-   [Depth-First Search, 깊이 우선 탐색](#depth-first-search-깊이-우선-탐색)
+-   [Breadth-First Search, 너비 우선 탐색](#breadth-first-search-너비-우선-탐색)
+-   [Dynamic Programming, 동적계획법](#dynamic-programming-동적계획법)
 
 <br></br>
 
