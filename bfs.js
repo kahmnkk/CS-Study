@@ -10,20 +10,18 @@ function bfs(graph, startNode) {
     let needVisit = [];
 
     needVisit.push(startNode);
+    visited[startNode] = startNode;
 
     while (needVisit.length != 0) {
         const node = needVisit.shift();
-        // 방문한 노드가 아닐경우
-        if (visited[node] == null) {
-            visited[node] = node;
-            for (let i in graph[node]) {
-                if (Number(i) == node) {
-                    continue;
-                }
-                if (graph[node][i] == 1) {
-                    // 연결된 노드 모두 추가
-                    needVisit.push(Number(i));
-                }
+        for (let i in graph[node]) {
+            if (Number(i) == node) {
+                continue;
+            }
+            if (graph[node][i] == 1 && visited[i] == null) {
+                // 연결된 노드 중 방문하지 않은 노드 모두 추가
+                visited[i] = Number(i);
+                needVisit.push(Number(i));
             }
         }
     }
