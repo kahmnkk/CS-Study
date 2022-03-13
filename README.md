@@ -12,6 +12,7 @@
     -   [Dijkstra, 다익스트라](#dijkstra-다익스트라)
 -   [Dynamic Programming, 동적계획법](#dynamic-programming-동적계획법)
 -   [Linked List, 연결 리스트](#linked-list-연결-리스트)
+-   [Greedy Algorithm, 그리디 알고리즘](#greedy-algorithm-그리디-알고리즘)
 
 <br></br>
 
@@ -64,3 +65,11 @@
 -   JS, Python 등에서는 기본 리스트가 연결 리스트의 모든 기능을 지원
 -   장점: 유동적인 데이터 추가 및 삭제 가능, 수정 시 항상 일정한 속도
 -   단점: 저장공간의 효율이 좋지 못함, 접근 속도가 느림
+
+<br></br>
+
+# Greedy Algorithm, 그리디 알고리즘
+
+-   현재 상황에서 가장 좋은 것을 선택하는 알고리즘
+-   최적해를 보장해주지 않음
+-   동전 거스름돈 문제, 회의실 시간 분배, 작업 스케줄러 등에서 사용
