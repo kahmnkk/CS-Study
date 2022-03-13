@@ -11,6 +11,7 @@
     -   [Breadth-First Search, 너비 우선 탐색](#breadth-first-search-너비-우선-탐색)
     -   [Dijkstra, 다익스트라](#dijkstra-다익스트라)
 -   [Dynamic Programming, 동적계획법](#dynamic-programming-동적계획법)
+-   [Linked List, 연결 리스트](#linked-list-연결-리스트)
 
 <br></br>
 
@@ -54,3 +55,12 @@
 -   이전에 계산한 값을 저장(Memoization)하여 중복 계산을 줄인다는 점이 분할정복과 다름
 -   모든 방법을 일일이 검토하여 최적의 해를 찾아내는 방식
 -   피보나치 수열, 배낭 문제 등에서 사용
+
+<br></br>
+
+# Linked List, 연결 리스트
+
+-   데이터와 다음 데이터를 가리키는 주소로 이루어진 노드들의 리스트
+-   JS, Python 등에서는 기본 리스트가 연결 리스트의 모든 기능을 지원
+-   장점: 유동적인 데이터 추가 및 삭제 가능, 수정 시 항상 일정한 속도
+-   단점: 저장공간의 효율이 좋지 못함, 접근 속도가 느림
