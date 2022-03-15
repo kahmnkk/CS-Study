@@ -13,6 +13,7 @@
 -   [Dynamic Programming, 동적계획법](#dynamic-programming-동적계획법)
 -   [Linked List, 연결 리스트](#linked-list-연결-리스트)
 -   [Greedy Algorithm, 그리디 알고리즘](#greedy-algorithm-그리디-알고리즘)
+-   [Prefix Sum, 누적합](#prefix-sum-누적합)
 
 <br></br>
 
@@ -73,3 +74,15 @@
 -   현재 상황에서 가장 좋은 것을 선택하는 알고리즘
 -   최적해를 보장해주지 않음
 -   동전 거스름돈 문제, 회의실 시간 분배, 작업 스케줄러 등에서 사용
+
+<br></br>
+
+# Prefix Sum, 누적합
+
+-   수열에서 특정 구간의 값을 구할 때 사용
+-   매번 계산시: O(n^2), 누적합 사용시: O(n)
+-   N번째 수열까지의 합을 prefix_sum[N]에 저장
+-   i ~ j의 합 = prefix_sum[j] - prefix_sum[i - 1]
+-   변화량의 누적합으로 응용 가능
+-   변화량의 누적합 - i번째 수열의 값은 sum[0] + ... + sum[i]
+-   변화량의 누적합 - i부터 j까지 +2 -> sum[i] += 2, sum[j + 1] -= 2
