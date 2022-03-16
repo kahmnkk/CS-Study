@@ -10,6 +10,7 @@
     -   [Depth-First Search, 깊이 우선 탐색](#depth-first-search-깊이-우선-탐색)
     -   [Breadth-First Search, 너비 우선 탐색](#breadth-first-search-너비-우선-탐색)
     -   [Dijkstra, 다익스트라](#dijkstra-다익스트라)
+    -   [Minimum Spanning Tree, 최소 신장 트리](#minimum-spanning-tree-최소-신장-트리)
 -   [Dynamic Programming, 동적계획법](#dynamic-programming-동적계획법)
 -   [Linked List, 연결 리스트](#linked-list-연결-리스트)
 -   [Greedy Algorithm, 그리디 알고리즘](#greedy-algorithm-그리디-알고리즘)
@@ -48,6 +49,26 @@
 -   출발 노드에서 다른 노드로 가는 최단 경로를 모두 구함
 -   음의 간선이 있을 경우 사용 불가
 -   그리디 알고리즘 + 동적계획법
+
+<br></br>
+
+## Minimum Spanning Tree, 최소 신장 트리
+
+-   Spanning Tree
+    -   그래프 내의 모든 정점을 최소 간선의 개수로 연결한 트리
+    -   사이클이 존재하면 안됨
+    -   N개의 정점일 경우 N-1개의 간선이 존재
+-   Spanning Tree에 사용된 간선들의 가중치 합이 최소인 트리
+-   도로 건설, 전기 회로, 통신망, 배관 등의 문제에서 사용
+-   Kruskal Algorithm, 크루스칼 알고리즘
+    -   Greedy Algorithm을 이용하여 간선 위주로 MST를 구현
+    -   각 단계에서 사이클을 이루지 않는 최소 비용 간선을 선택
+    -   간선의 개수가 적은 경우 사용 - 간선 정렬 + 매번 사이클을 이루는지 확인 필요
+-   Prim Algorithm, 프림 알고리즘
+    -   Greedy Algorithm을 이용하여 정점 위주로 MST를 구현
+    -   시작 정점에서부터 가장 낮은 가중치를 갖는 정점 선택
+    -   모든 정점이 선택될 때까지 반복
+    -   간선의 개수가 많은 경우 사용
 
 <br></br>
 
