@@ -30,6 +30,8 @@ function kruskal(n, costs) {
         if (edgeCnt == n - 1) break;
     }
 
+    // test commit
+
     return totalCost;
 }
 
