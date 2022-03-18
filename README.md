@@ -15,6 +15,7 @@
 -   [Linked List, 연결 리스트](#linked-list-연결-리스트)
 -   [Greedy Algorithm, 그리디 알고리즘](#greedy-algorithm-그리디-알고리즘)
 -   [Prefix Sum, 누적합](#prefix-sum-누적합)
+-   [Binary Search, 이분 탐색](#binary-search-이분-탐색)
 
 <br></br>
 
@@ -107,3 +108,13 @@
 -   변화량의 누적합으로 응용 가능
 -   변화량의 누적합 - i번째 수열의 값은 sum[0] + ... + sum[i]
 -   변화량의 누적합 - i부터 j까지 +2 -> sum[i] += 2, sum[j + 1] -= 2
+
+<br></br>
+
+# Binary Search, 이분 탐색
+
+-   정렬된 리스트에서 범위를 절반씩 좁혀가며 데이터를 탐색
+-   Parametric Search
+    -   최적화 문제를 결정 문제(Y/N)로 바꿔 해결하는 기법
+    -   특정 조건을 만족하는 가장 알맞은 값을 찾을 때 사용
+    -   주어진 범위가 매우 큰 경우 사용
