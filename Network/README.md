@@ -25,6 +25,8 @@
 -   데이터를 받을 때 Decapsulation
     -   각 계층에서 필요한 헤더를 처리한 후 하위 계층에게 데이터를 넘김
 
+<br></br>
+
 ### ISO/OSI reference model
 
 -   7 layers로 구성 (예전에 있던 모델)
@@ -47,16 +49,22 @@
     -   Client끼리 소통 불가
     -   통신 시작
 
+<br></br>
+
 ### Peer-to-Peer 구조 (P2P)
 
 -   No always-on server
 -   단말끼리 직접 소통하는 방식
 -   Self scalability (자가 확장성)
 
+<br></br>
+
 ### Sockets
 
 -   Application Layer와 나머지 4개의 계층이 소통하기 위해 필요한 창구
 -   나머지 계층은 OS의 기능으로 OS가 컨트롤
+
+<br></br>
 
 ### Application Layer Protocol이 하는일
 
@@ -69,12 +77,16 @@
 -   Rules
     -   프로세스 작동 규칙 정의
 
+<br></br>
+
 ### Application의 특징
 
 -   Data integrity (데이터 완전도)
 -   Timing
 -   Throughput (단위 시간당 데이터량)
 -   Security
+
+<br></br>
 
 ### HTTP - HyperText Transfer Protocol
 
