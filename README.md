@@ -26,7 +26,13 @@
 -   Internet Protocol Stack
 
     -   TCP/IP Protocol Architecture
+
     -   ISO/OSI reference model
 
 -   Application Layer Protocol
+
     -   HTTP
+
+    -   Cookie & Web Cache
+
+    -   DNS - Domain name system
